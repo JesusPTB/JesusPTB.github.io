@@ -103,10 +103,23 @@ h2 span {
   text-align: center;
 }
 
+.contactElems {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contactElems :first-child {
+  align-self: left;
+}
+
+.contactElems:last-child {
+  align-self: right;
+}
+
 #contact form {
-  margin: 0 auto;
+  margin-left: 10vw;
+  margin-right: auto;
   width: 400px;
-  padding: 1em;
   border: 1px solid #ccc;
   border-radius: 1em;
 }
@@ -114,6 +127,10 @@ h2 span {
 #contact textarea {
   width: 20em;
   height: 10em;
+}
+
+#contact iframe {
+  margin-left: 10vw;
 }
 
 ul {

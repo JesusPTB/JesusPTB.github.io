@@ -57,30 +57,36 @@
 
 <section id="contact">
   <h2 style="font-size:4vw;"">Nous <span>Contacter</span></h2>
-  <form action="https://formspree.io/f/myybvpqv" method="POST">
-    <ul>
-      <li>
-        <label for "name">Nom complet :</label> <br>
-        <input type="text" name="name" required></br>
-      </li>
-      <li>
-        <label for "email">Votre email :</label> <br>
-        <input type="email" name="_replyto" required></br>
-      </li>
-      <li>
-        <label for "tel">Numéro de téléphone :</label> <br>
-        <input type="text" name "tel" required></br>
-      </li>
-      <li>
-        <label for "msg"> Message :</label> <br>
-        <textarea id="msg" name "msg" required></textarea></br> </br>
-      </li>
-      <li class="button">
-        <input type="submit" value="Envoyer"> <br>
-      </li>
-    </ul>
-  </form>*
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2259.28380376972!2d-2.7905388552294554!3d47.669727952060065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101db04b0abaf9%3A0x39922e612783d545!2sKergalette!5e0!3m2!1sfr!2sfr!4v1612454540551!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <div class="contactElems">
+    <div class="contactForm">
+      <form action="https://formspree.io/f/myybvpqv" method="POST">
+        <ul>
+          <li>
+            <label for "name">Nom complet :</label> <br>
+            <input type="text" name="name" required></br>
+          </li>
+          <li>
+            <label for "email">Votre email :</label> <br>
+            <input type="email" name="_replyto" required></br>
+          </li>
+          <li>
+            <label for "tel">Numéro de téléphone :</label> <br>
+            <input type="text" name "tel" required></br>
+          </li>
+          <li>
+            <label for "msg"> Message :</label> <br>
+            <textarea id="msg" name "msg" required></textarea></br> </br>
+          </li>
+          <li class="button">
+            <input type="submit" value="Envoyer"> <br>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2259.28380376972!2d-2.7905388552294554!3d47.669727952060065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101db04b0abaf9%3A0x39922e612783d545!2sKergalette!5e0!3m2!1sfr!2sfr!4v1612454540551!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
 </section>
 <script>
     function openMenu() {
