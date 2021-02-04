@@ -99,9 +99,28 @@ h2 span {
 }
 
 #contact {
+  background-color: beige;
   text-align: center;
 }
 
+#contact form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+#contact textarea {
+  width: 20em;
+  height: 10em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 @media screen and (max-width: 600px) {
   ._topBar a:not(:first-child) {display: none;}
   ._topBar a.icon {

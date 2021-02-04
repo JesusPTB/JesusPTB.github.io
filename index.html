@@ -58,9 +58,27 @@
 <section id="contact">
   <h2 style="font-size:4vw;"">Nous <span>Contacter</span></h2>
   <form action="https://formspree.io/f/myybvpqv" method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+    <ul>
+      <li>
+        <label for "name">Nom complet :</label> <br>
+        <input type="text" name="name" required></br>
+      </li>
+      <li>
+        <label for "email">Votre email :</label> <br>
+        <input type="email" name="_replyto" required></br>
+      </li>
+      <li>
+        <label for "tel">Numéro de téléphone :</label> <br>
+        <input type="text" name "tel" required></br>
+      </li>
+      <li>
+        <label for "msg"> Message :</label> <br>
+        <textarea id="msg" name "msg" required></textarea></br> </br>
+      </li>
+      <li class="button">
+        <input type="submit" value="Envoyer"> <br>
+      </li>
+    </ul>
   </form>
 </section>
 <script>
