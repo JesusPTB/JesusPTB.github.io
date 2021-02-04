@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kergalette</title><link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="_topBar" id="topBar">
+  <a href="#home" style="font-family: 'Satisfy', sans-serif; font-size: 3vw;">Kergalette</a>
+  <a href="#home">Accueil</a>
+  <a href="#about">A propos</a>
+  <a href="#menu">Menu</a>
+  <a href="#contact">Contact</a>
+  <a href="javascript:void(0);" class="icon" onclick="openMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <p>Dim - Jeu:  11h30 - 21h30<br>
+    Ven - Sam:  11h30 - 22h</p>
+  <p>Tel: 02 97 46 27 12</p>
+</div> 
+<section id="home">
+  <h2>Crêperie <span>Kergalette</span></h2>
+</section>
+
+<section id="about"> 
+  <div class="img">
+    <img src="img/ker-1.jpg" style='height: 100%; width: 100%; object-fit: contain'>
+  </div>
+  <div class="text">
+    <h2 style="font-size:3vw;">A deux pas du centre ville de Vannes, à <strong>Atlanville.</strong></h2>
+    <p>
+      <strong>Kergalette</strong> vous propose de déguster ses spécialités de crêpes au froment et de galettes au sarrasin.
+    </p>
+    <p>
+      Découvrez une cuisine authentique et délicieuse élaborée à partir de <strong>produits frais et naturels</strong> (farine bio, produits locaux).
+    </p>
+    <p>
+      Appréciez tout au long de l’année, dans un cadre élégant et convivial, un subtil mélange de saveurs sucrées, salées.<br>
+      En plus d’un large choix de crêpes à la carte, faites vous plaisir en <strong>garnissant vous-même vos crêpes et vos galettes</strong> !
+    </p>
+    <p>
+      Des galettes allégées en passant par les crêpes gourmandes, <strong>régalez toutes vos envies</strong> !<br>
+      Offrez-vous dès maintenant, votre instant détente dans une crêperie aux saveurs bretonnes.
+    </p
+  </div>
+</section>
+
+<section id="menu">
+  <h2 style="font-size:4vw;"">Jetez un oeil à notre <span>Menu</span></h2>
+  <p>
+    <iframe src="./menu.pdf" width="100%" height="1000px"></iframe>
+  </p>
+</section>
+
+<section id="contact">
+  <h2 style="font-size:4vw;"">Nous <span>Contacter</span></h2>
+</section>
+<script>
+    function openMenu() {
+      var x = document.getElementById("topBar");
+      if (x.className === "_topBar") {
+        x.className += " responsive";
+      } else {
+        x.className = "_topBar";
+      }
+    }
+</script>
+</body>
+</html> 
