@@ -112,10 +112,6 @@ h2 span {
   align-self: left;
 }
 
-.contactElems :last-child {
-  align-self: right;
-}
-
 #contact form {
   margin-left: 10vw;
   margin-right: auto;
