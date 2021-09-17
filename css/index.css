@@ -112,6 +112,6 @@ tbody th {
     }
 }
 
-.card-body {
-    background-color: inherit;
+.projects .card-body {
+    background-color: transparent;
 }
