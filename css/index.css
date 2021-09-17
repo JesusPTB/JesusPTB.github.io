@@ -114,4 +114,15 @@ tbody th {
 
 .projects .card-body {
     background-color: transparent;
+    border: none;
+}
+
+.projects:before, .contact-me:before {
+    content : "";
+    position: relative;
+    left    : 48%;
+    bottom  : 0;
+    height  : 1px;
+    width   : 4%;
+    border-bottom:1px solid black;
 }
