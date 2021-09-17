@@ -101,13 +101,17 @@ tbody th {
 }
 
 @media screen and (min-width:576px ) and (max-width: 992px) {
-    .first, .fourth {
+    .first, .fourth, .fifth {
         background-color: #4F4D8C;
         color: white;
         vertical-align: middle;
     }
-    .third, .second {
+    .third, .second, .sixth {
         background-color: #2E4159;
         color: white;
     }
+}
+
+.card-body {
+    background-color: inherit;
 }
